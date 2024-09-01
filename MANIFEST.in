@@ -1,0 +1,21 @@
+recursive-include emerge *
+recursive-include export *
+include configs/*
+include output/*
+recursive-include tests/*
+
+include README.md
+exclude MANIFEST.in
+
+recursive-exclude *.egg-info
+recursive-exclude .git *
+recursive-exclude venv *
+recursive-exclude .github *
+recursive-exclude .pytest_cache *
+recursive-exclude .vscode *
+recursive-exclude build *
+recursive-exclude dist *
+recursive-exclude * __pycache__
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.orig
